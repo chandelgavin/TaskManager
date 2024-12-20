@@ -5,9 +5,9 @@ Features
 
 Task Management
 
-Create a Task: Add a new task with a title, description, and deadline.
+# Create a Task: Add a new task with a title, description, and deadline.
 
-Get All Tasks: Retrieve the list of all tasks.
+# Get All Tasks: Retrieve the list of all tasks.
 
 Get Task by ID: Fetch a specific task by its ID.
 
@@ -37,65 +37,34 @@ Postman (for API testing)
 
 Project Structure
 
-/task-manager
-    ├── src
-    │   ├── main
-    │   │   ├── java/com/projects/taskManager
-    │   │   │   ├── Controllers
-    │   │   │   ├── DTO
-    │   │   │   ├── Entities
-    │   │   │   ├── Repositories
-    │   │   │   ├── Services
-    │   │   │   └── TaskManagerApplication.java
-    │   └── resources
-    │       ├── application.properties
-    │       └── data.sql (optional)
-    └── pom.xml
 
 Installation and Setup
 
-Clone the Repository:
+Build the Project: mvn clean install
 
-git clone https://github.com/your-username/task-manager.git
-cd task-manager
+Run the Application: mvn spring-boot:run
 
-Build the Project:
+# Access API Endpoints:
+Base URL: http://localhost:6969
 
-mvn clean install
-
-Run the Application:
-
-mvn spring-boot:run
-
-Access API Endpoints:
-
-Base URL: http://localhost:8080
-
-API Endpoints
+# API Endpoints
 
 Task Endpoints:
 
-POST /tasks - Create a new task
-
+POST /tasks  - Create a new task
 GET /tasks - Get all tasks
-
 GET /tasks/{id} - Get a task by ID
-
 PATCH /tasks/{id} - Update a task
-
 DELETE /tasks/{id} - Delete a task
 
-Note Endpoints:
-
+# Note Endpoints:
 POST /tasks/{taskId}/notes - Add a note to a task
-
 GET /tasks/{taskId}/notes - Get all notes for a task
-
 DELETE /tasks/{taskId}/notes/{noteId} - Delete a note from a task
 
 Example Requests
 
-Create a Task (POST /tasks)
+# Create a Task (POST /tasks)
 
 {
     "title": "Complete Project",
@@ -103,7 +72,7 @@ Create a Task (POST /tasks)
     "deadline": "2024-12-31"
 }
 
-Add a Note (POST /tasks/1/notes)
+# Add a Note (POST /tasks/1/notes)
 
 {
     "title": "Reminder",
