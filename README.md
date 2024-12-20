@@ -70,16 +70,26 @@ Base URL: http://localhost:6969
 ### Create a Task (POST /tasks)
 
 {
+
+
     "title": "Complete Project",
+    
     "description": "Finish task manager project by deadline",
+    
     "deadline": "2024-12-31"
+
+    
 }
 
 ### Add a Note (POST /tasks/1/notes)
 
 {
+
+
     "title": "Reminder",
+    
     "body": "Review the project documentation."
+    
 }
 
 
