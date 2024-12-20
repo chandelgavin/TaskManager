@@ -27,7 +27,7 @@ Delete a Note for a Task: Remove a specific note from a task.
 
  Java 17
 
- Spring Boot 3.x.x
+ Spring Boot 3.4.0
 
  Maven
 
