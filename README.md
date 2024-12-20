@@ -25,15 +25,15 @@ Delete a Note for a Task: Remove a specific note from a task.
 
 ### Technologies Used
 
-Java 17
+ Java 17
 
-Spring Boot 3.x.x
+ Spring Boot 3.x.x
 
-Maven
+ Maven
 
-### H2 Database (for testing)
+ H2 Database (for testing)
 
-### Postman (for API testing)
+ Postman (for API testing)
 
 ## Installation and Setup
 
