@@ -49,14 +49,20 @@ Base URL: http://localhost:6969
 ### Task Endpoints:
 
 `POST /tasks`  - Create a new task
+
 `GET /tasks` - Get all tasks
+
 `GET /tasks/{id}` - Get a task by ID
+
 `PATCH /tasks/{id}` - Update a task
+
 `DELETE /tasks/{id}` - Delete a task
 
 ### Note Endpoints:
 `POST /tasks/{taskId}/notes` - Add a note to a task
+
 `GET /tasks/{taskId}/notes` - Get all notes for a task
+
 `DELETE /tasks/{taskId}/notes/{noteId}` - Delete a note from a task
 
 ## Example Requests
@@ -69,7 +75,7 @@ Base URL: http://localhost:6969
     "deadline": "2024-12-31"
 }
 
-# Add a Note (POST /tasks/1/notes)
+### Add a Note (POST /tasks/1/notes)
 
 {
     "title": "Reminder",
